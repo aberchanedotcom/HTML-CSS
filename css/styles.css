@@ -1,0 +1,87 @@
+li{
+    display: inline-block;
+    width: 100px;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+div{
+    width: 100%;
+    height: 500%;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.navbar{
+    text-align: center;
+    background-color: rgb(7, 123, 131);
+    height: 50px;    
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(7, 123, 131);
+    height: 50px;
+    color: white ;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+h2{
+    text-align: center;
+    color: red;
+    font-family: rob;
+}
+    @font-face {
+        font-family: 'Roboto';
+        src: url('Roboto-ThinItalic-webfont.eot');
+        src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('Roboto-ThinItalic-webfont.woff') format('woff'),
+             url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+             url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+        font-weight: 200;
+    }
+
+input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
